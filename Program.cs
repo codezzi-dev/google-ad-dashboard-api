@@ -11,9 +11,9 @@ builder.Services.AddSwaggerGen(options =>
 {
     options.SwaggerDoc("v1", new Microsoft.OpenApi.Models.OpenApiInfo
     {
-        Title = "My API",
+        Title = "Ad dashbaord API",
         Version = "v1",
-        Description = "This is a sample API for .NET 9"
+        Description = "Api for dashboard"
     });
 });
 
